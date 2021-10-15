@@ -8,7 +8,7 @@ while(a>0):
 if(sum==b):
     print(sum,'is an armstrong number')
 else:
-    print(b,'Not an armstrong number')
+    print(b,'Not an AMstrong Number number')
     
     
     
