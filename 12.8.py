@@ -13,7 +13,7 @@ for i in range(2):
     result.append([])
     for j in range(2):
         result[i].append(a[i][j]+b[i][j])
-for i in result
+for i in result:
         print(*i)
 
         

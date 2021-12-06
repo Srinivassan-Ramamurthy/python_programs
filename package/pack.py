@@ -1,0 +1,10 @@
+import factorial
+import armstrong
+import greater
+import list_task
+import no_of_letters_in_string
+import palindrome
+import perfect_number
+import prijme
+import testttt
+import sumalter

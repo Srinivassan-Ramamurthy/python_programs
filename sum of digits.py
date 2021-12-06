@@ -1,21 +1,7 @@
-'''a=int(input('Enter an integer '))
-b= str(a)
-sum=0
-for i in range (len(b)):
-    sum+=(a%10)
-    a//=10
-print(sum)'''
-a=int(input('Enter an integer '))
-b=str(a)
-sum=0
-while(a>0):
-    sum+=(a%10)
-    a//=10
-print(i,end='+',sum)
-    
-
-    
-    
-    
-
-
+a=[3,2,11,7,6,5,6,1]
+b=[]
+for x in a:
+    for y in a[1:]:
+        if(y<x):
+            b.append(y)
+print(*b)

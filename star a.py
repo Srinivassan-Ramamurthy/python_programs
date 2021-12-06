@@ -15,7 +15,7 @@ for i in range(1,n+1):
         temp.append([])
         for j in range(m):
             temp[i].append(int(input('enter value ')))
-for i in range(m):
+'''for i in range(m):
     result.append([])
     for j in range(m):
         res[i][j]=0
@@ -23,7 +23,11 @@ for i in range(m):
             res[i][j]+=a[i][k]*b[k][j]
             result[i].append(res[j][i])
 for i in result:
-        print(*i)
+        print(*i)'''
+for i in a:
+    print(*i)
+for i in b:
+    print(*i)
 
     
     
